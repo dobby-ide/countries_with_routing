@@ -1,0 +1,31 @@
+.container{
+	height:1.7rem;
+	background-color: var(--color-primary-dark);
+	display:flex;
+	color:white;
+	justify-content: flex-start;
+	align-items: center;
+	margin:1rem;
+
+
+}
+.flag{
+	flex:0 0 15%;
+
+}
+.name{
+	flex: 0 0 28%;
+
+}
+.region{
+	flex: 0 0 18%;
+
+}
+.population{
+	flex: 0 0 20%;
+
+}
+.language{
+	flex:0 0 20%;
+
+}

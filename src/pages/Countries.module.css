@@ -1,0 +1,70 @@
+
+
+.searchandcolumns{
+	margin: 0 auto;
+	display:flex;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+.columnsheaders{
+
+
+	flex:0 0 70% ;
+}
+.search{
+
+	flex:0 0 28%;
+}
+.ul{
+	list-style-type: none;
+
+
+}
+.li{
+	font-size: 1.5rem;
+	height:6rem;
+	display:flex;
+	background-color: var(--color-primary-light);
+	margin:1rem;
+	padding:2px;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);
+
+
+}
+.imageflag{
+
+	flex:0 0 10%;
+}
+.imgflag{
+
+	height:4rem;
+
+
+}
+.countryname{
+
+	text-align: left;
+	flex: 0 0 20%;
+}
+.region{
+	flex: 0 0 12%;
+
+}
+.population{
+
+	flex: 0 0 14%;
+}
+.language{
+	font-size:1rem;
+	flex:0 0 15%;
+	overflow:hidden;
+}
+.link{
+	flex: 0 0 10%;
+	font-weight: 900;
+	font-size: 3rem;
+	text-decoration: none;
+}

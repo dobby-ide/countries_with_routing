@@ -1,0 +1,40 @@
+.header {
+
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+.header ul {
+	text-transform: uppercase;
+	list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.header a {
+
+  text-decoration: none;
+  color: #8032e0;
+}
+
+.header a:hover,
+.header a.active {
+  color: #530080;
+}
+.list{
+	display:flex;
+	gap:1rem;
+	font-size: 3rem;;
+
+}
+
+.list a {
+	text-decoration: none;
+	color:rgb(63, 38, 6);
+}
+
+.list a:hover, .list a.active{
+	color:rgb(142, 161, 3);
+	text-decoration: underline;
+}

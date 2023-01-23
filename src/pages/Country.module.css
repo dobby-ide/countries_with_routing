@@ -1,0 +1,26 @@
+.container{
+	padding:2rem;
+	position:relative;
+	background-color: var(--color-primary);
+	width:40rem;
+	left:50%;
+	transform: translateX(-50%);
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);;
+}
+.flagandinfos{
+	display:flex;
+	flex-direction: column;
+	margin:2rem auto;
+	justify-content: center;
+	align-items: center;
+}
+.flag{
+	width:30rem;
+}
+.flagimg{}
+.info{
+	width:30rem;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 400;
+}
